@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row position-fixed w-100 border-bottom" style="background: rgba(255,255,255,0.5); backdrop-filter: blur(8px);">
+            <div class="col-12  text-center px-3  py-2">
+                <i class="profile-picture bi bi-incognito fs-2 float-start"></i>
+                <!-- <i class="profile-picture bi bi-person-circle fs-1"></i> -->
+                <f class="fs-2 fw-bolder">Emergency</f>
+                <i class="profile-picture bi bi-bell fs-2 float-end"></i>
+            </div>
+            
+            <div class="row mx-auto text-center fs-3 mb-3">
+                <span id="casing">
+                    
+                </span>
+            </div>
+        </div>
+        
+        <div class="row " id="first-aid" style="margin-top: 100px;">
+                        
+        </div>
+        
+    </div>
+</div>
+            
+<script>
+    var emergencySelect = localStorage.getItem("emergencyContact");
+    $('#casing').html(emergencySelect);
+
+    fetchStates();
+   
+</script>

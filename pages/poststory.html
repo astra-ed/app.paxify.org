@@ -1,0 +1,71 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row position-fixed w-100 border-bottom" style="background: rgba(255,255,255,0.5); backdrop-filter: blur(8px);">
+            <div class="col-12  text-center px-3  py-2">
+                <i class="profile-picture bi bi-incognito fs-2 float-start"></i>
+                <!-- <i class="profile-picture bi bi-person-circle fs-1"></i> -->
+                <f class="fs-2 fw-bolder">Post story</f>
+                <i class="profile-picture bi bi-bell fs-2 float-end"></i>
+            </div>
+        
+        </div>
+        
+        <div class="row mx-auto p-2 fs-5 border-bottom" id="description" style="margin-top: 60px;">
+            Free your mind, Write your story, no one will know you did. You are completely anonymous here
+        </div>
+        <div class="row mx-auto p-2 fs-6 border-bottom" id="description">
+            <textarea class="bg-transparent" id="message" style="width: 100%; height: 200px;" placeholder="Write story anonymously"></textarea>
+        </div>
+        <div class="row mx-auto p-2 fs-6 " id="description">
+            <button class="btn btn-primary w-100 btn-lg" id="postMessage">Post story</button>
+        </div>
+        
+    </div>
+</div>
+<script>
+    
+    $(function(){
+        $('#postMessage').click(function(){
+            var message = $('#message').val();
+            if(message == ""){
+                errorMessage('Message cannot be empty');
+                return false;
+            }
+            var userToken = localStorage.getItem("remedialUser");
+
+            var obj = {
+                "userToken":userToken,
+                "message":message
+            }
+
+            loadingStart();
+            // Call the API with the concatenated OTP value
+            $.ajax({
+                type: 'POST',
+                url: 'https://payunifier.com/rws/create_post.php', // Replace with your API endpoint for OTP verification
+                data: obj,
+                dataType:"json",
+                success: function(response) {
+                    
+                    if(response.result == "success"){
+                        successMessage('Your message is sent to the public');
+                        url = 'home.html';
+                        $('#content').load(url);
+                    }else{
+                        errorMessage(response.result);
+                    }
+                    
+                    // You can perform any additional actions here based on the API response.
+                    loadingStop();
+                },
+                error: function(data) {
+                    errorMessage(data.responseText);
+                    loadingStop();
+                }
+            });
+        });
+    });
+    
+
+
+</script>

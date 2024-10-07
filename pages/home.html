@@ -1,0 +1,78 @@
+<div class="row">
+    <div class="col-sm-12">
+        
+            <div class="row position-fixed w-100 border-bottom border-1 border-primary" style="background: rgba(255,255,255,0.5); backdrop-filter: blur(8px);">
+                <div class="col-12 mb-3 text-center px-3  py-2">
+                    <i class="profile-picture bi bi-incognito fs-2 float-start"></i>
+                    <f class="fs-2 fw-bolder">Remedial</f>
+                    <!-- <button class="float-end" id="modeToggle">Toggle Mode</button> -->
+                    <i class="profile-picture bi bi-bell fs-2 float-end"></i>
+                </div>
+                
+            </div>
+            <div style="margin-top: 90px;">
+                <form class="mb-3">
+                    <div class="mb-3 input-group-text">
+                        
+                        <input type="search" class="form-control rounded-4 login-input" id="floatingInput" placeholder="Search"> 
+                    </div>
+                </form>
+
+                <div id="postContent">
+
+                </div>
+                
+                
+
+            </div>
+
+            <div class="position-fixed link" url="poststory" style="z-index: +10; right:0; bottom: 0; margin-right: 30px; margin-bottom: 100px;">
+                <button type="button" class="btn btn-primary btn-lg border-0 rounded-5" style="font-size:14px !important">
+                    <i class="bi bi-pencil-square fs-1"></i>
+                </button>
+            </div>
+        
+
+    </div>
+
+</div>
+
+<script>
+
+    // $(document).ready(function() {
+    // // Check if the user's system prefers dark mode
+    // const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // // Set the default mode based on the user's system preference
+    // if (prefersDarkMode) {
+    //     $('body').addClass('dark-mode');
+    //     // Save the user's preference to local storage
+    //     localStorage.setItem('preferredMode', 'dark-mode');
+    // } else {
+    //     $('body').addClass('light-mode');
+    //     // Save the user's preference to local storage
+    //     localStorage.setItem('preferredMode', 'light-mode');
+    // }
+
+    // // Handle the click event of the toggle button
+    // $('#modeToggle').on('click', function() {
+    //     // Toggle between light mode and dark mode
+    //     $('body').toggleClass('light-mode dark-mode');
+
+    //     // Update the user's preference in local storage
+    //     const currentMode = $('body').hasClass('light-mode') ? 'light-mode' : 'dark-mode';
+    //     localStorage.setItem('preferredMode', currentMode);
+    // });
+    // });
+
+
+    fetchPost();
+
+    $(function(){
+        $('.link').click(function(){
+            var url = $(this).attr("url");
+            $('#content').load("pages/"+url+".html");
+        });
+    });
+    
+</script>

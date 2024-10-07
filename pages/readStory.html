@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div class="row position-fixed w-100 border-bottom" style="background: rgba(255,255,255,0.5); backdrop-filter: blur(8px);">
+            <div class="col-12  text-center px-3  py-2">
+                <i class="profile-picture bi bi-incognito fs-2 float-start"></i>
+                <!-- <i class="profile-picture bi bi-person-circle fs-1"></i> -->
+                <f class="fs-2 fw-bolder">Read story</f>
+                <i class="profile-picture bi bi-bell fs-2 float-end"></i>
+            </div>
+            
+            <div class="row mx-auto text-center mb-3">
+                
+                <span id="postInfo">
+                    
+                </span>
+               
+            </div>
+        </div>
+        
+        <div class="row mx-auto p-2 fs-6 border-bottom" id="description" style="margin-top: 110px;">
+                        
+        </div>
+        <div class="row mx-auto p-2 fs-6 border-bottom" id="description">
+            <textarea class="bg-transparent" style="width: 100%; height: 70px;" placeholder="Post comments here"></textarea>
+        </div>
+        <div class="row mx-auto p-2 fs-6 " id="description">
+            <button class="btn btn-primary w-100 btn-lg">Post comment</button>
+        </div>
+        <div id="postContent">
+
+        </div>
+
+    </div>
+</div>
+            
+<script>
+    var postCountry = localStorage.getItem("postCountry");
+    var postTime = localStorage.getItem("postTime");
+    var postMessage = localStorage.getItem("postMessage");
+    var postToken = localStorage.getItem("postToken");
+    var userToken = localStorage.getItem("remedialUser");
+    $('#postInfo').html("<i class='bi bi-incognito'></i> <i class='bi bi-dot'></i> "+postCountry+" <i class='bi bi-dot'></i> "+postTime);
+    $('#description').html(postMessage);
+    read_messages(postToken,userToken);
+    fetchComments(postToken);
+</script>
