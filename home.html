@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedial</title>
+    <link href="css/bs5.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body onload="validation()">
+    <section class="d-none loadingDiv top-0 bottom-0 w-100 position-fixed text-center" style="background: rgba(255,255,255,0.5); z-index: +1000; backdrop-filter: blur(8px);">
+        <div class="justify-content-center align-items-center top-50 position-absolute mx-auto w-100 text-center">
+          <div class="spinner-border text-primary spinner-border-md" role="status"></div>
+        </div>
+    </section>
+    <section class="alert row top-0 position-fixed w-100 p-3 text-center text-dark fw-bold mx-auto output" style="z-index: +5000"></section>
+    <section class="container" style="margin-bottom: 65px" id="content">
+            
+        
+    </section>
+    <section>
+        <div class="row bg-white mx-auto menu position-fixed w-100 bottom-0 border-top border-1 py-3 border-primary">
+            <div class="col text-center link" url="home">
+                <span>
+                    <i class="bi bi-rss"></i>
+                </span>
+                <p class="size">Feeds</p>
+            </div>
+            <div class="col text-center link" url="firstaid">
+               <span>
+                
+                <i class="bi bi-bag-plus"></i>
+                </span>
+                <p class="size">First aid</p>
+            </div>
+            <div class="col text-center link" url="emergency">
+                <span>
+                    <i class="bi bi-telephone"></i>
+                </span>
+                <p class="size">Emergency</p>
+            </div>
+            <div class="col text-center link" url="profile">
+                <span>
+                    <i class="bi bi-incognito"></i>
+                </span>
+                <p class="size">Profile</p>
+                
+            </div>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/fuctions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>

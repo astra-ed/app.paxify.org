@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link href="css/bs5.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="manifest" href="manifest.json">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/fuctions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+   
+</head>
+<body id="main" style="overflow-x: hidden;" onload="validation()">
+    <section class="d-none loadingDiv top-0 bottom-0 w-100 position-fixed text-center" style="background: rgba(255,255,255,0.5); z-index: +1000; backdrop-filter: blur(8px);">
+        <div class="justify-content-center align-items-center top-50 position-absolute mx-auto w-100 text-center">
+          <div class="spinner-border text-primary spinner-border-md" role="status"></div>
+        </div>
+    </section>
+    <section class="alert row top-0 position-fixed w-100 p-3 text-center text-dark fw-bold mx-auto output" style="z-index: +5000"></section>
+  
+    <section class="container mt-5 slide-up"> 
+        <div class="row content d-flex justify-content-center align-items center">
+            <div class="col-sm-12">
+                <div class="bg-white px-2 py-4">
+                    <div class="confirmation-code text-center">
+                        <h1>Enter Confirmation Code</h1>
+                        <p>Enter code that was sent to your email</p>
+                        <p><span class="badge alert-success" id="otpEmail"></span></p>
+                        <div class="row justify-content-center">
+                            <div class="col">
+                              <input type="text" class="form-control otp-input text-center" maxlength="1" autofocus>
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control otp-input text-center" maxlength="1">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control otp-input text-center" maxlength="1">
+                            </div>
+                            <div class="col">
+                              <input type="text" class="form-control otp-input text-center" maxlength="1">
+                            </div>
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 mb-3 verify-otp-button">
+            <button type="button" onclick="validateOTP()" class="btn btn-primary btn-lg border-0 rounded-4">Verify</button>
+        </div>
+
+        <div class="Resend-code">
+            <p class="text-center">Didn't receive a code? <a href="#" title="">Resend</a></p>
+        </div>
+    </section>
+
+    <script>
+
+      
+        const otpInputs = document.querySelectorAll(".otp-input");
+    
+        otpInputs.forEach((input, index) => {
+          input.addEventListener("input", (event) => {
+            const currentValue = event.target.value;
+            if (currentValue.length === 1) {
+              if (index < otpInputs.length - 1) {
+                otpInputs[index + 1].focus();
+              }
+            } else if (currentValue.length === 0) {
+              if (index > 0) {
+                otpInputs[index - 1].focus();
+              }
+            }
+          });
+    
+          // Handle pasting multiple characters in a single input box
+          input.addEventListener("paste", (event) => {
+            const pastedText = event.clipboardData.getData("text");
+            if (pastedText.length <= otpInputs.length) {
+              otpInputs.forEach((input, idx) => {
+                input.value = pastedText[idx] || "";
+                if (idx === pastedText.length - 1) {
+                  input.focus();
+                }
+              });
+            }
+            event.preventDefault();
+          });
+        });
+    </script>
+    <script>
+      var otpEmail = localStorage.getItem("remedialUser");
+      $('#otpEmail').html(otpEmail);
+
+    </script>
+</body>
+
+</html>
