@@ -1,0 +1,76 @@
+/* Slide Up In Animation */
+@keyframes slide-up-in {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Blind Left In Animation */
+@keyframes blind-left-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Blind Right In Animation */
+@keyframes blind-right-in {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Center Circular Reveal Animation */
+@keyframes center-circular-reveal {
+  0% {
+    clip-path: circle(0% at center);
+  }
+  100% {
+    clip-path: circle(100% at center);
+  }
+}
+
+/* Apply the animation to a specific class */
+.center-circular-reveal {
+  animation: center-circular-reveal 0.3s ease-in-out;
+}
+
+
+/* Apply the animation to a specific class */
+.blind-right {
+  animation: blind-right-in 0.3s ease-in-out;
+}
+
+
+/* Apply animations to specific class */
+.slide-up {
+  animation: slide-up-in 0.3s ease-in-out;
+}
+
+.blind-left {
+  animation: blind-left-in 0.3s ease-in-out;
+}
+
+.backButton{
+    padding: 1px 8px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.backButton:hover{
+    background: #eeeeee;
+}
