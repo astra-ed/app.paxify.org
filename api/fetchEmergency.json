@@ -1,0 +1,13 @@
+{
+    "result":[
+        
+        {
+            "emergency":"Hospital",
+            "emergencyToken":2
+        },
+        {
+            "emergency":"Pharmacy",
+            "emergencyToken":3
+        }
+    ]
+}

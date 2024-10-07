@@ -1,0 +1,265 @@
+{
+	"result":[
+		{
+			"firstAidCase":"High fever",
+			"firstAidDescription":"Extreme increase in the normal body temperature which is 37 degree celcius",
+			"applicationProcedure":[
+				{"step":"drink plenty of fluids most preferably water"},
+				{"step":"wear light clothe but if you can , remove clothe especially in children"},
+				{"step":"use light blanket if there is chills until it ends"},
+				{"step":"pain reliever shouldn't be given to children most especially aspirin, but it can be given to adults."},
+				{"step":"paracetamol can be given to children following the instruction on the label"}
+				
+			]
+		},
+		{
+			"firstAidCase":"Accidental fall / slip",
+			"firstAidDescription":"slips, trips and falls occur when there's no safe walking, fast steps on slippery surfaces,etc",
+			"applicationProcedure":[
+				{"step":"try not to move immediately when fall occur so as not to fall again"},
+				{"step":"if you are on a slippery surface , try not to stand but crawl to move away from the surface"},
+				{"step":"if trip/fall is due to footwear, remove the footwear before standing up"}
+			]
+		},
+		{
+			"firstAidCase":"Burn",
+			"firstAidDescription":"damage to the skin or deeper tissues caused by sun, hot liquids, fire, electricity or chemicals.",
+			"applicationProcedure":[
+				{"step":"cool the affected area of the body with cool running water for at least 20minutes as soon as the burn occurs until pain subsides."},
+				{"step":"apply petroleum jelly , do not apply toothepaste or butter to the area, as these may cause infection. Honey can be applyto the surface too."},
+				{"step":"in case of hot fluids, remove clothes, napples and jewellery"},
+				{"step":"do not prick or break blisters if any"},
+				{"step":"peradventure clothing has been stuck to the burnt area, do not remove"},
+				{"step":"cover the burn loosely with cling wrap or a clean damp lint-free cloth"},
+				{"step":"seek immediate medical advise if burn is larger than a coin, on the face , hand, groin or feet or if the burn is very deep or if the burn is caused by chemical or electricity"}
+			]
+		},
+		{
+			"firstAidCase":"Cut",
+			"firstAidDescription":"a long, narrow , deep or large incision in the skin made by something sharp",
+			"applicationProcedure":[
+				{"step":"wash your hands , this helps to avoid infection"},
+				{"step":"stop the bleeding by hold pressure on the area. If the cut is on the leg or the hand you might want to raise it to slow the bleeding."},
+				{"step":"clean the wound"},
+				{"step":"apply an antibiotic or petroleum jelly"},
+				{"step":"cover the wound with a clean bandage"},
+				{"step":"if the cut is deep; you should seek medical advise and to get a short of tetanus"}
+			]
+		},
+		{
+			"firstAidCase":"Choking",
+			"firstAidDescription":"having severe difficulty in breathing because of a constricted or obstructed throat or a lack of air.",
+			"applicationProcedure":[
+				{"step":"for adult; strike five separate times between the person's shoulder blades with the heel of your hand. Give five abdominal thrusts. If back blows don't remove the stuck object, give five abdominal thrusts, also known as HEIMLICH MANEUVER. Alternate between five blows and five thrusts until the blockage is dislodged"},
+				{"step":"for children; place your arm across the child's chest. Bend the child forward and deliver up to 5 firm blows between the shoulder blades OR place your fist just above the belly button, give up to five quick inward and upward thrusts."}
+			]
+		},
+		{
+			"firstAidCase":"Food poisioning",
+			"firstAidDescription":"illness caused by food contaminated with bacteria, viruses, parasites or toxins.",
+			"applicationProcedure":[
+				{"step":"the individual should lie down and rest"},
+				{"step":"if they are vomitting give them small sips of water to prevent dehydration."},
+				{"step":"if they have accompanying diarrhoea or diarrhoea only , it is important to try to replace lost fluids and salts; ORS solution might help them regain back lost strenght from stooling due to diarrhoea."},
+				{"step":"if diarrhoea persist for more than 24hours, contact a physician."}
+			]
+		},
+		{
+			"firstAidCase":"Drowning",
+			"firstAidDescription":"the process of experiencing respiratory impairment from submersion or immersion in liquid",
+			"applicationProcedure":[
+				{"step":"do not put yourself in danger trying to rescue a casualty"},
+				{"step":"when the casualty is rescued from water, you should perform a primary survey."},
+				{"step":"if this establishes thatthey are unresponsive and not breathing , you should call for help preferably an emergency number, while you start CPR."},
+				{"step":"check the airway is open before giving five initial rescue breaths. This is done by placing one hand on the forehead and two fingers of the other hand underneath the tipof the chin."},
+				{"step":"using the hand on the forehead , pinch the casualty's nose with your finger and thumb allowing the casulaty's mouth to fall open."},
+				{"step":"take a breathe and place your lips around the casualty's mouth ,forming a seal."},
+				{"step":"blow into the casualty's mouth until the chest rises."},
+				{"step":"follow by beginning chest compressions. Kneel by the casualty and put the heel of your hand in the middle of their chest."},
+				{"step":"put your other hand on top of the first. Interlock your fingers making sure they don't touch the ribs. Keep arm straight and lean over the casualty . Press down hard,to a third of the depth of the chest , the allow the chest to come backup."},
+				{"step":"after 30 chest compressions, give two rescue breaths."},
+				{"step":"continue to perform CPR until help arrives and take over or the person starts showing signs of life and startsto breathe normally."}
+			]
+		},
+		{
+			"firstAidCase":"Seizures",
+			"firstAidDescription":"a sudden uncotrolled burst of electrical activity in the brain. It can cause changes in behavior, movements, feelings and levels of consciousness.",
+			"applicationProcedure":[
+				{"step":"Ease the person to the floor."},
+				{"step":"Turn the person gently onto one side"},
+				{"step":"clear the area around the person of anything hard or sharp"},
+				{"step":"put something soft and flat ,like a folded jacket or a pillow if it's available , under his or her head"},
+				{"step":"remove glasses, loosen ties or anything around the neck that may make it hard to breathe."},
+				{"step":"allow them to be calm until seizure ends and he or she is fully awake"}
+			]
+		},
+		{
+			"firstAidCase":"Fainting",
+			"firstAidDescription":"fainting is the lose of consciousness for a short period of time because of a temporarily insufficient supply of oxygen to the brain.",
+			"applicationProcedure":[
+				{"step":"Lay them down"},
+				{"step":"Check for other injuries. They may have hurt themselves falling down, so look for head injuries and any other wounds. Treat as appropriate."},
+				{"step":"Kneel down next to them and raise their legs, supporting their ankles on your shoulder to help blood flow back to the brain."},
+				{"step":"Make sure that they have plenty of fresh air. Ask other people to move away and if you are inside, ask that the windows should be open."}
+			]
+		},
+		{
+			"firstAidCase":"Hypogylcemia(low blood sugar)",
+			"firstAidDescription":"is a situation whereby the sugar (glucose) level in the blood is extremely low, thereby making the individual weak due to lack of strength.",
+			"applicationProcedure":[
+				{"step":"you can give the individual sugary drinks such as cola (coke), lemonade, fruit juice and isotonic sports drinks, and sweet foods such as candy, chocolate and sugar cubes. Avoid giving them diet drink as it won't have any sugar in it and will not help them."},
+				{"step":"allow them to rest for about 10-20 minutes for them to regain lost strength."}
+			]
+		},
+		{
+			"firstAidCase":"Sickle cell crisis",
+			"firstAidDescription":"sickle cell crisis is also known as pain episodes and this happen when the blood vessels to part of the body become blocked.",
+			"applicationProcedure":[
+				{"step":"Give them over the counter painkillers, such as paracetamol or ibuprofen (do not give aspirin to children under 16 unless a doctor has prescribed it)"},
+				{"step":"give them plenty of water to drink"},
+				{"step":"use a warm towel to massage the affected body part."},
+				{"step":"try to distract them to take their minds off the pain, you might crack a joke, tell a fuuny story."}
+			]
+		},
+		{
+			"firstAidCase":"Asthma",
+			"firstAidDescription":"a condition in which a person's airways become inflamed, narrow and swell and produce extra mucus, which makes it difficult to breathe.",
+			"applicationProcedure":[
+				{"step":"sit the person comfortably upright, stay calm and reassure them."},
+				{"step":"give four(4) puffs of blue/grey puffer ( inhaler) , make sure to shake well before use and also shake in between use, hold the inhaler in the right position."},
+				{"step":"wait for 4 minutes. Stay with the person ; watch carefully and reassure them."},
+				{"step":"if after 4 minutes , the breathing doesn't improve; give another four puffs and call the ambulance for emergency"}
+			]
+		},
+		{
+			"firstAidCase":"Allergic reactions (hay fever or allergic rhinitis)",
+			"firstAidDescription":"an allergy caused by pollen or dust in which the mucous membranes of the eyes and nose are inflamed,causing sneezing, running at the nose and watery eyes. It can also cause itchy eyes, nose or roof of mouth.",
+			"applicationProcedure":[
+				{"step":"put vaseline around your nostrils to trap pollen"},
+				{"step":"shower and change your clothes after you have been outside to wash off pollen/dust ."},
+				{"step":"use nasal spary if available to ease the stuffy nose"},
+				{"step":"keep windows and doors shut as much as possible."}
+			]
+		},
+		{
+			"firstAidCase":"Heart attack",
+			"firstAidDescription":"it happens when the flow of blood that brings oxygen to a part of the heart muscle suddenly becomes blocked. If blood flow is not restored quickly , the heart muscle will begin to die.",
+			"applicationProcedure":[
+				{"step":"the first thing to be done is calling the emergency number"},
+				{"step":"analyze the person's health condition and check if he/she is still breathing. In case the person isn't breathing , you should start CPR( cardiopulmonary resuscitation) immediately."},
+				{"step":"if the person is not experiencing unconsciousness but has other obvious signsof heart attack, the following should be don-ask them to sit down and relax. They should loosen a tight fitting clothing if they are wearing any. Ask them if they are taking any medication for chest pain, if yes, arrange the medication and help them take it"},
+				{"step":"stay with them until they stable"}
+			]
+		},
+		{
+			"firstAidCase":"Stroke",
+			"firstAidDescription":"a stroke can be sometimes called brain attack , it occurs when something blocks blood supply to part of the brain or when a blood vessel in the brain bursts. In either case, parts of the brain become damaged or die. A stroke can lead to lastingbrain damage, long-term disability or even death.",
+			"applicationProcedure":[
+				{"step":"call an ambulance immediately"},
+				{"step":"note the time you first see symptoms"},
+				{"step":"perform CPR if necessary"},
+				{"step":"do not let the person go to sleep."},
+				{"step":"do not give them medication or food or drink"}
+			]
+		},
+		{
+			"firstAidCase":"Electric shock",
+			"firstAidDescription":"injury to the body from direct contact with a high-voltage source. An electric shock can be life threatening.",
+			"applicationProcedure":[
+				{"step":"don't go near or touch the person until you are sure the electrical supply has been switched off"},
+				{"step":"once the power supply has been switched off, and if the person isn't breathing , call for an ambulance immediately"}
+			]
+		},
+		{
+			"firstAidCase":"Fracture",
+			"firstAidDescription":"a complete or partial break in a bone",
+			"applicationProcedure":[
+				{"step":"call for emergency if the person is unresponsive"},
+				{"step":"try not to move the person except if necessary too avoid further injury"},
+				{"step":"stop any bleeding by applying pressure to the wound with a sterile bandage, a clean cloth or a clean clothing."},
+				{"step":"immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in, unless you are trained to do so."},
+				{"step":"apply ice packs to limit swelling and help relieve pain."}
+			]
+		},
+		{
+			"firstAidCase":"Bleeding",
+			"firstAidDescription":"the release of blood from a broken blood vessel, either inside or outside the body",
+			"applicationProcedure":[
+				{"step":"if the bleeding is pretty heavy, call for emergency."},
+				{"step":"check that there's nothing embedded in the wound. If there is, be careful not to press down on the object. But if nothing is embedded, apply and maintain pressure to the wound with your gloved hand, using a clean pad untill the bleeding stops."},
+				{"step":"use a clean dressing to bandage the wound firmly"},
+				{"step":"if bleeding continues through the pad, apply pressure to the wound until bleeding stop and then apply another pad over the top and bandage it in place; don't remove the original pad or dressing , but continue to check that the bleeding has stopped."}
+			]
+		},
+		{
+			"firstAidCase":"Joint dislocation",
+			"firstAidDescription":"an injury where a joint is forced out of a normal postion. This usually happen from a fall, car accident or participation in sports.",
+			"applicationProcedure":[
+				{"step":"call an ambulance immediately"},
+				{"step":"don't move the joint because it might damage the joint and its surroundings muscles, ligaments, nerves or blood vessels."},
+				{"step":"put ice on the injured joint. This can help reduce swelling by controlling internal bleeding and the buildup of fluids in and around the injured joint."}
+			]
+		},
+		{
+			"firstAidCase":"Cold and flu",
+			"firstAidDescription":"flu is caused by influenza viruses only, while the common cold can be caused by a number of different viruses, including rhinoviruses, parainfluenza and seasonal coronaviruses.",
+			"applicationProcedure":[
+				{"step":"COLD: Remove wet clothes if you have any on. Put on dry clothing / cover with dry clothing, making sure the head is covered. If dry clothing is not available , you can get warm by making skin-to-skin contact. Warm up under a heated blanket if available."},
+				{"step":"move around but don't be so active that you sweat. Activity makes body heat and improves blood flow. Sweating should be avoided because it cools the body."},
+				{"step":"drink warn fluids that do not contain caffeine or alcohol."},
+				{"step":"FLU: let the person rest as much as possible."},
+				{"step":"keep them hydrate with plenty of fluids."},
+				{"step":"relieve symptoms wit; a cool-mist humidifier, a saline(saltwater) nose drops, ibuprofen(giving according to package direction)"}
+			]
+		},
+		{
+			"firstAidCase":"Headaches",
+			"firstAidDescription":"a painful sensation in any part of the head, ranging from sharp to dull, that may occur with other symptoms.",
+			"applicationProcedure":[
+				{"step":"help them to a quiet place."},
+				{"step":"if the casualty is an adult, you can suggest a pain killers like paracetamol tablet or paracetamol syrup if the casualty is a child. Do not give aspirin to anyone less than 16years."},
+				{"step":"seek medical advice if the casualty does not improve or they develop a severe and incapacitating pain or has a pain accompained with fever or vomitting."}
+			]
+		},
+		{
+			"firstAidCase":"Snake bite",
+			"firstAidDescription":"signs or symptoms of a snake bite may vary depending on the type of snake, but may include:puncture marks at the wound, redness, swelling, bruising, bleeding or blistering around the bite . Severe pain and tenderness at the siteof the bite.",
+			"applicationProcedure":[
+				{"step":"lay or sit down with the bite in a nuetral position of comfort"},
+				{"step":"remove rings and watches(when the site is on the hand) before swelling starts"},
+				{"step":"wash the bite with soap and water"},
+				{"step":"cover the bite with a clean, dry dressing."},
+				{"step":"mark the leading edge of tenderness/swelling on the skin and write the time alongside it"},
+				{"step":"do not try to suck out the venom"},
+				{"step":"do not apply ice or immerse the wound in water"},
+				{"step":"do not drink alcohol as a pain killer"},
+				{"step":"do not take any pain relievers"},
+				{"step":"call for medical help right away"}
+			]
+		},
+		{
+			"firstAidCase":"Dog bite",
+			"firstAidDescription":"dog bite means any bruising of the skin or break in the skin caused by any contact with the tooth or mouth of a dog. It also means any part of the body of a person which has been seized with the teeth so that skin of the person has been wounded, scratched or pierced.",
+			"applicationProcedure":[
+				{"step":"wash the wound with soap and warm water."},
+				{"step":"gentle press a clean cloth over the wound to stop the flow of blood"},
+				{"step":"apply an antibacterial ointment to the wound."},
+				{"step":"cover with a sterile bandage"},
+				{"step":"watch for signs of infection"},
+				{"step":"<b>seek help if you suspect the following</b>"},
+				{"step":"1. infection or possible exposure to rabies, or if the wound is severe"},
+				{"step":"2. if the wound is caused by an unknown dog"},
+				{"step":"3. doesn't stop bleeding"},
+				{"step":"4. causes intense pain"},
+				{"step":"5. exposes bone, tendons or muscle"},
+				{"step":"6. causes loss of function , such as an ability to bend fingers"},
+				{"step":"7. looks red, swollen or inflammed"},
+				{"step":"8. leaks pus or fluid"},
+				{"step":"<b>also seek help if you:</b>"},
+				{"step":"do not remember when you had your last tetanus shot"},
+				{"step":"feel weak, disoriented or faint"},
+				{"step":"are running a fever"}
+			]
+		}
+	]
+}
