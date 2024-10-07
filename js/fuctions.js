@@ -1,3 +1,5 @@
+var baseUrl = 'https://pws.bizlr.net/';
+
 function loadingStart(){
     $('.loadingDiv').removeClass('d-none');
 }
@@ -101,7 +103,7 @@ function read_messages(postToken, userToken){
     $.ajax({
         type: "POST",
         data: obj,
-        url: "https://payunifier.com/rws/markAsRead.php",
+        url: baseUrl+"markAsRead.php",
         dataType: "json",
         success: function (response) {
         
@@ -253,7 +255,7 @@ function onBookmark(x){
     
     $.ajax({
         type: 'POST',
-        url: 'https://payunifier.com/rws/bookmarkPost.php', // Replace with your API endpoint for signup
+        url: baseUrl+'bookmarkPost.php', // Replace with your API endpoint for signup
         data: obj,
         dataType:"json",
         success: function(response) {
@@ -279,7 +281,7 @@ function offBookmark(x){
     
     $.ajax({
         type: 'POST', 
-        url: 'https://payunifier.com/rws/bookmarkPost.php', // Replace with your API endpoint for signup
+        url: baseUrl+'bookmarkPost.php', // Replace with your API endpoint for signup
         data: obj,
         dataType:"json",
         success: function(response) {
@@ -392,7 +394,7 @@ function fetchProfileMetrics(){
 
     $.ajax({
         type: 'POST',
-        url: 'https://payunifier.com/rws/fetchProfileMetrics.php', // Replace with your API endpoint for signup
+        url: baseUrl+'fetchProfileMetrics.php', // Replace with your API endpoint for signup
         data: obj,
         dataType:"json",
         success: function(response) {
@@ -442,7 +444,7 @@ function validateOTP(){
     // Call the API with the concatenated OTP value
     $.ajax({
         type: 'POST',
-        url: 'https://payunifier.com/rws/otp.php', // Replace with your API endpoint for OTP verification
+        url: baseUrl+'otp.php', // Replace with your API endpoint for OTP verification
         data: obj,
         dataType:"json",
         success: function(response) {
